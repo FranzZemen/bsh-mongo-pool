@@ -1,6 +1,6 @@
 {
   "name": "bsh-mongo-pool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Maintains a pool of mongo connections",
   "main": "index.js",
   "scripts": {

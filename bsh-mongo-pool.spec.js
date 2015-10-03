@@ -9,7 +9,7 @@ describe('Connection pool tests', function () {
     });
     describe ('Initialization', function () {
         it('should initialize', function (done) {
-            bshMongoPool.init('mongodb://localhost', {server: {poolSize:10}}).then(function () {
+            bshMongoPool.init('mongodb://localhost/mongopooltest', {server: {poolSize:10}}).then(function () {
                 should.exist(bshMongoPool.db());
                 done();
             }, function (err) {
