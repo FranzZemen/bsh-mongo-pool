@@ -1,0 +1,27 @@
+{
+  "name": "bsh-mongo-pool",
+  "version": "1.0.0",
+  "description": "Maintains a pool of mongo connections",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha bsh-mongo-pool.spec.js"
+  },
+  "author": "Franz Zemen <franzzemen@gmail.com> (https://www.linkedin.com/pub/franz-zemen/0/2b5/105)",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "mongodb": "^2.0.45",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "should": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franzzemen/bsh-mongo-pool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franzzemen/bsh-mongo-pool/issues"
+  },
+  "homepage": "https://github.com/franzzemen/bsh-mongo-pool#readme"
+}
