@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/franzzemen/bsh-mongo-pool/issues"
   },
-  "homepage": "https://github.com/franzzemen/bsh-mongo-pool#readme"
+  "homepage": "https://github.com/franzzemen/bsh-mongo-pool#readme",
+  "keywords": [
+    "mongo",
+    "pool"
+  ]
 }

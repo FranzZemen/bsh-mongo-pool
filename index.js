@@ -11,6 +11,9 @@
 
     module.exports.init = function (mongoURL, options) {
         log.debug({options:options}, "Initializing");
+        if (!options) {
+            options = {};
+        }
         var deferred = q.defer();
         mongodb.MongoClient.connect(mongoURL, options, function (err, db) {
             if (err) {
